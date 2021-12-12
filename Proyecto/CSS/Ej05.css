@@ -1,0 +1,85 @@
+h1 {
+    color: gray;
+    font-size: 1.5cm;
+    background-color: black;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    margin-bottom: 0.2cm;
+}
+
+.subtitle{
+    background-color: grey;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 40px;
+    width: 100%;
+    
+}
+.subtitle h2 {
+    display: inline-block;
+    padding: 0px 45px;
+    margin: 0px;
+    margin-right: 250px;
+    font-size: 2em;
+    
+}
+.menu{
+    background-color:darkgray ;
+    margin-top: 3px;
+}
+
+.menu h4{
+    display: inline-block;
+    padding: 0px 45px;
+    margin: 0px;
+    margin-right: 166px;
+
+}
+.first_art{
+    margin-bottom: 200px;
+}
+.first_art div{
+    float: left;
+    background-color: darkgray;
+    height: 200px;
+    width: 200px;
+    
+}
+
+.first_art div p{
+    padding: 35%;
+}
+
+.second_art{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 40px;
+    width: 100%;
+}
+.second_art div{
+    float: left;
+    background-color: darkgray;
+    height: 200px;
+    width: 200px;
+}
+
+.second_art p{
+    float: left;
+    width: 35%;
+    padding-right: 10px;
+    padding-left: 5px;
+    
+}
+.second_art div p{
+    padding: 35%;
+}
+footer{
+    background-color: lightgray;
+    margin-top: 170px;
+    margin-right: 20%;
+    height: 50px;
+    width: 98%;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 1.2em;
+}
