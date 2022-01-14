@@ -44,6 +44,16 @@ aside section .apuntar{
     margin-top: 1.5%;
 }
 
+.parte_arriba img{
+    border-radius: 20px;
+    transition:all .5s;
+}
+
+.parte_arriba img:hover{
+    filter: brightness(125%);
+    transform: scale(1.1);
+}
+
 .parte_arriba p:nth-child(4) {
     margin-left: 14%;    
     width: 70%;
@@ -57,6 +67,16 @@ aside section .apuntar{
     margin-left: 22%;   
     font-size: 25px;
     font-weight: bold;
+}
+
+.parte_arriba a{
+    text-decoration: none;
+    color: black;
+}
+
+.parte_arriba a:hover{
+    text-decoration: underline;
+    color: #7ABA96;
 }
 
 .receta_pasta div{
@@ -85,6 +105,25 @@ aside section .apuntar{
     margin-bottom: 10%;
 }
 
+.parte_abajo a{
+    text-decoration: none;
+    color: black;
+}
+
+.parte_abajo a:hover{
+    text-decoration: underline;
+    color: #7ABA96;
+}
+
+.parte_abajo img{
+    border-radius: 20px;
+    transition:all .5s;
+}
+
+.parte_abajo img:hover{
+    filter: brightness(125%);
+    transform: scale(1.1);
+}
 
 .parte_abajo p:nth-child(4) {
     margin-left: 14%;    

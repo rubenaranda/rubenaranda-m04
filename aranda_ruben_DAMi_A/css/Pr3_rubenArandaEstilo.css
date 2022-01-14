@@ -1,5 +1,5 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Nunito",sans-serif;
 }
 .Logo{
     text-align: center;
@@ -9,9 +9,14 @@ body{
     max-width: 90%;
 }
 nav{
+    display: block;
     margin-top: 25px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 99;
 }
 
 
@@ -21,8 +26,6 @@ nav{
     font-size: 14px;
     justify-content: center;
     flex-grow: 5;
-    
-    
 }
 
 li{
@@ -34,6 +37,13 @@ li{
     text-decoration: none;
     color: black;
     font-weight: bold;
+    font-size: 19px;
+    transition: all .5s;
+}
+
+ul li a:hover{
+    color:  #7ABA96;
+    font-size: larger;
 }
 
 footer{
