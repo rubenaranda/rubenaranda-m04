@@ -1,5 +1,6 @@
+
 *{
-    font-family: "Nunito",sans-serif;
+    font-family: 'Dongle', sans-serif;
 }
 .Logo{
     text-align: center;
@@ -8,7 +9,7 @@ body{
     margin-left: 100px;
     max-width: 90%;
 }
-nav{
+.nav_global{
     display: block;
     margin-top: 25px;
     border-top: 1px solid black;
@@ -20,7 +21,7 @@ nav{
 }
 
 
- ul{
+ .nav_global ul{
     display: flex;
     flex-flow: row wrap;
     font-size: 14px;
@@ -28,12 +29,12 @@ nav{
     flex-grow: 5;
 }
 
-li{
+.nav_global li{
     list-style: none;
     padding: 0px 20px;
 }
 
- ul li a{
+.nav_global ul li a{
     text-decoration: none;
     color: black;
     font-weight: bold;
@@ -41,7 +42,7 @@ li{
     transition: all .5s;
 }
 
-ul li a:hover{
+.nav_global ul li a:hover{
     color:  #7ABA96;
     font-size: larger;
 }

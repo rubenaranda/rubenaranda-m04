@@ -1,0 +1,81 @@
+.cabecera {
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 30%;
+    margin-right: 37%;
+}
+
+.cabecera h4{
+    font-size: 30px;
+    text-align: center;
+}
+
+.cabecera p{
+    padding-left: 7%;
+    font-size: 18px;
+    font-style: normal;
+}
+hr{
+    margin-left: 30%;
+    margin-right: 37%;
+    margin-bottom: 0%;
+}
+
+section{
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 30%;
+    margin-right: 37%;
+    margin-bottom: 0%;
+}
+
+section h3 a{
+    text-decoration: none;
+    color: #7ABA96;
+    text-decoration: underline;
+    transition: all .5s;
+}
+
+section h3 a:hover{
+    filter: brightness(125%);
+    color: #7ABA96;
+}
+
+section img{
+    float: left;
+    margin-top: 5%;
+    border-radius: 5%;
+    margin-bottom: 5%;
+}
+
+section p{
+    padding-left: 25%;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    font-style: italic;
+}
+
+section ul{
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 16px;
+    justify-content: center;
+    flex-grow: 5;
+    list-style: none;
+}
+
+section ul li{
+    margin-right: 2%;
+}
+
+section ul li span{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
