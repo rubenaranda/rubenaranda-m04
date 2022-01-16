@@ -1,0 +1,94 @@
+section {
+    
+    text-align: center;
+    margin-left: 28%;
+    margin-right: 25%;
+}
+
+section h1{
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+section form{
+    text-align: left;
+    border-radius: 5px;
+}
+
+section form .input_nombre input{
+    display: block;
+    font-size:18px !important;
+    border-radius: 5px;
+    border-width: 0.5px;
+    padding : 10px;
+    margin  : 10px 0 0 -10px;
+    width   : 450px;
+    height  : 25px;
+    margin-bottom: 5%;
+    
+  
+    resize  : none;
+    overflow: auto;
+}
+
+section form .input_e-mail input{
+    display: block;
+    font-size:18px !important;
+    border-radius: 5px;
+    border-width: 0.5px;
+    padding : 10px;
+    margin  : 10px 0 0 -10px;
+    width   : 450px;
+    height  : 25px;
+    margin-bottom: 5%;
+  
+    resize  : none;
+    overflow: auto;
+}
+
+section form .input_asunto input{
+    display: block;
+    font-size:18px !important;
+    border-radius: 5px;
+    border-width: 0.5px;
+    padding : 10px;
+    margin  : 10px 0 0 -10px;
+    width   : 450px;
+    height  : 25px;
+    margin-bottom: 5%;
+  
+    resize  : none;
+    overflow: auto;
+}
+
+section form .input_mensaje textarea{
+    display: block;
+    font-size:18px !important;
+    border-radius: 5px;
+    border-width: 0.5px;
+    padding : 10px;
+    margin  : 10px 0 0 -10px;
+    width   : 900px;
+    height  : 150px;
+    margin-bottom: 5%;
+  
+}
+
+section form .input_terminos{
+    display: block;
+    margin  : 10px 0 0 -10px;
+    margin-bottom: 5%;
+}
+
+section form .input_enviar button{
+    display: block;
+    font-size:18px !important;
+    border-radius: 5px;
+    border-width: 0.5px;
+    padding : 10px;
+    margin  : 10px 0 0 -10px;
+    width   : 100px;
+    height  : 50px;
+    margin-bottom: 5%;
+  
+}
