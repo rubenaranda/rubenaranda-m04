@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(38, 190, 190);
+    padding: 0px 0px;
+}
+
+nav img{
+    width: 150px;
+    height: 150px;
+    background-color:rgb(38, 190, 190) ;
+    padding-right: 2%;
+}
+
+nav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0px 30px;
+    font-size: 20px;
+    padding-top: 2%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.presentacion{
+    background-color:  burlywood;
+    height: 400px;
+}
+
+.presentacion article{
+    padding: 20px;
+    margin: 0 27%;
+}
+
+.presentacion img{
+    width: 250px;
+    height: 200px;
+    float: left;
+    padding: 25px;
+}
+
+.presentacion h1{
+    color: white;
+    font-size: 40px;
+}
+
+.presentacion p{
+    text-align: justify;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.articles{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.articles img{
+    width: 450px;
+    height: 250px;
+}
+
+.articles article{
+    width: 30%;
+}
+
+.articles h2{
+    border-bottom: 1px solid black;
+    margin: 20px 100px;
+    padding-top: 7%;
+}
+
+.articles p{
+    text-align: justify;
+    padding: 0px 80px;
+    margin: 0%;
+    font-size: 18px;
+}
+
+.articles div{
+    border: 1px solid black;
+    margin: 10% 5%;
+    position: relative;
+    top: -50px;
+    height: 200px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px solid cyan;
+    margin: 0% 0%;
+}
+
+footer address{
+    padding: 1% 0%;
+}
+
+footer img{
+    width: 25px;
+    height: 25px;
+    
+}
+
+footer ul{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1% 0%;
+}
+
+footer ul li{
+    list-style: none;
+}
+

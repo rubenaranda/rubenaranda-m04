@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: aquamarine;
+}
+
+header ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+   
+}
+
+header ul img{
+    width: 100px;
+    height: 100px;
+}
+
+header ul li{
+    padding-top: 1.5%;
+    padding-left: 2.5%;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.intro img{
+    width: 250px;
+    height: 200px;
+    float: left;
+    padding: 25px;
+}
+
+.intro{
+    background-color: burlywood;
+    border-bottom: 100%;
+}
+
+.intro article{
+    padding: 20px;
+    margin: 0 27%;
+}
+
+.intro h1{
+    font-size: 40px;
+    color: white;
+    padding: 15px;
+}
+
+.intro p{
+    font-size: 25px;
+}
+
+.options img{
+    width: 400px;
+    height: 300px;
+}
+
+.options{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.options article{
+    width: 30%;
+}
+
+.options h2{
+    border-bottom: 1px solid black;
+    margin: 40px 85px;
+    padding-top: 3%;
+}
+
+.options p{
+    text-align: justify;
+    padding: 0% 10%;
+    font-size: 20px;
+}
+
+.options div{
+    border: 1px solid black;
+    position: relative;
+    top: -50px;
+    margin: 0% 8%;
+    height: 50%;
+}
+
+footer img{
+    width: 25px;
+    height: 25px;
+}
+
+footer{
+    border-top: 5px solid aquamarine;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+footer address{
+    padding:1% 0%;
+}
+
+footer ul{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 1% 0%;    
+}
+
+footer ul li{
+    list-style: none;
+}
+

@@ -1,0 +1,12 @@
+*{
+    font-family: 'Dongle', sans-serif;
+}
+
+table{
+    border: 1px solid black;
+}
+
+.cabezera{
+    background-color: green;
+    text-align: center;
+}

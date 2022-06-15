@@ -1,0 +1,223 @@
+.cabecera{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-content: center;
+}
+.cabecera h4{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    text-decoration: underline;
+}
+
+.cabecera hr{
+border-top: 5px solid #7ABA96;
+border-radius: 5px;
+margin-bottom: 10%;
+}
+
+.cabecera p {
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+aside{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: end;
+    justify-content: space-between;
+    text-align: right;
+    margin-left: 10%;
+    float: right;
+    width: 15%;
+    height: 15%;
+}
+
+aside h3{
+    text-align: center;
+    color:#7ABA96 ;
+}
+
+aside p{
+    text-align: justify;
+    color: #8A8070;
+}
+
+aside img{
+    float: left;
+    margin-top: 10%;
+}
+
+aside section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+   margin-right: 10%;
+}
+
+
+aside .rss:hover{
+    color: #7ABA96;
+}
+
+.resumen{
+    display: flex;
+    flex-flow: row wrap;
+   margin-left: 26.5%;
+   margin-bottom: 5%;
+   margin-right: 30%;
+}
+
+.resumen p{
+    color: #8A8070;
+    
+}
+section .mayus{
+    font-size: 50px;
+    float: left;
+    color: #7ABA96;
+}
+
+section .underline{
+    text-decoration: underline;
+}
+
+section .redes{
+    color: #7aba96;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+section .redes:hover{
+    text-decoration: underline;
+    filter: brightness(120%);
+}
+
+.receta{
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    margin-left: 26.5%;
+   margin-right:20% ;
+   margin-bottom: 5%;
+   margin-top: 5%;
+   border-radius: 2%;
+   border: double black;
+}
+
+.receta h4{
+    margin-left: 5%;
+}
+
+.receta p{
+    margin-top: 4%;
+}
+
+.receta article ul{
+    display: block;
+    list-style-type: square;
+    text-align: start;
+    margin-bottom: 10%;
+    margin-left: 5%;
+}
+
+.receta article ul li{
+    list-style-type: square;
+    margin-bottom: 1%;
+
+}
+
+.preparacion ol{
+    display: block;
+    text-align: start;
+    list-style: none;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    
+}
+
+.strong{
+    font-weight: bold;
+}
+
+section ol .primer_paso{
+  padding-bottom: 5%;  
+  padding-left: 4rem;
+  background-image: url(../imagenes/1.png);
+  background-position: 0 0;
+  background-size: 2.5rem 2.5rem;
+  background-repeat: no-repeat;
+  margin-right: 10%;
+  margin-bottom: 3%;
+  margin-top: 5%;  
+}
+
+.preparacion .segundo_paso{
+  padding-bottom: 5%;  
+  padding-left: 4rem;
+  background-image: url(../imagenes/2.png);
+  background-position: 0 0;
+  background-size: 2.5rem 2.5rem;
+  background-repeat: no-repeat;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.preparacion .tercer_paso{
+    padding-bottom: 5%; 
+    padding-left: 4rem;
+  background-image: url(../imagenes/3.png);
+  background-position: 0 0;
+  background-size: 2.5rem 2.5rem;
+  background-repeat: no-repeat;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.preparacion .cuarto_paso{
+    padding-bottom: 5%; 
+    padding-left: 4rem;
+  background-image: url(../imagenes/4.png);
+  background-position: 0 0;
+  background-size: 2.5rem 2.5rem;
+  background-repeat: no-repeat;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.preparacion .quinto_paso{
+    padding-bottom: 5%; 
+    padding-left: 4rem;
+  background-image: url(../imagenes/5.png);
+  background-position: 0 0;
+  background-size: 2.5rem 2.5rem;
+  background-repeat: no-repeat;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.preparacion .sexto_paso{
+    padding-bottom: 5%; 
+    padding-left: 4rem;
+    background-image: url(../imagenes/6.png);
+    background-position: 0 0;
+    background-size: 2.5rem 2.5rem;
+    background-repeat: no-repeat;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.preparacion .septimo_paso{
+    padding-bottom: 5%; 
+    padding-left: 4rem;
+    background-image: url(../imagenes/7.png);
+    background-position: 0 0;
+    background-size: 2.5rem 2.5rem;
+    background-repeat: no-repeat;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+
